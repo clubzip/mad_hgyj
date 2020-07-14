@@ -36,7 +36,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="160dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/kim"/>
+                    android:src="@drawable/rachel"/>
             </LinearLayout>
 
             <LinearLayout
@@ -60,7 +60,7 @@
                     android:layout_height="160dp"
                     android:layout_weight="0.5"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/suelgi" />
+                    android:src="@drawable/pengsu" />
 
             </LinearLayout>
 
@@ -85,7 +85,7 @@
                     android:layout_height="160dp"
                     android:layout_weight="0.5"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/beenzino" />
+                    android:src="@drawable/hyeri" />
 
             </LinearLayout>
 
@@ -102,7 +102,7 @@
                     android:layout_height="160dp"
                     android:layout_weight="0.5"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/shj" />
+                    android:src="@drawable/kimhyunwu" />
 
                 <ImageButton
                     android:id="@+id/thumb_button_8"
@@ -135,7 +135,7 @@
                     android:layout_height="160dp"
                     android:layout_weight="0.5"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/js" />
+                    android:src="@drawable/hyunwu" />
             </LinearLayout>
 
         </LinearLayout>
