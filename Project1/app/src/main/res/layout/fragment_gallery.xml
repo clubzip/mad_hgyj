@@ -19,49 +19,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_weight="1"
                 android:padding="16dp">
 
                 <ImageButton
                     android:id="@+id/thumb_button_1"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/kim" />
+                    android:src="@drawable/kim"/>
 
                 <ImageButton
                     android:id="@+id/thumb_button_2"
-                    android:layout_width="160dp"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/kim" />
-
+                    android:src="@drawable/kim"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_weight="1"
                 android:padding="16dp">
 
                 <ImageButton
                     android:id="@+id/thumb_button_3"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/suelgi" />
 
                 <ImageButton
                     android:id="@+id/thumb_button_4"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/suelgi" />
 
@@ -71,23 +68,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_weight="1"
                 android:padding="16dp">
 
                 <ImageButton
                     android:id="@+id/thumb_button_5"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/beenzino" />
 
                 <ImageButton
                     android:id="@+id/thumb_button_6"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/beenzino" />
 
@@ -96,24 +92,23 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="horizontal"
                 android:padding="16dp">
 
                 <ImageButton
                     android:id="@+id/thumb_button_7"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/shj" />
 
                 <ImageButton
                     android:id="@+id/thumb_button_8"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/shj" />
 
@@ -123,23 +118,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_weight="1"
                 android:padding="16dp">
 
                 <ImageButton
                     android:id="@+id/thumb_button_9"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/js" />
 
                 <ImageButton
                     android:id="@+id/thumb_button_10"
-                    android:layout_width="160dp"
+                    android:layout_width="match_parent"
                     android:layout_height="160dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="50dp"
+                    android:layout_weight="0.5"
                     android:scaleType="centerCrop"
                     android:src="@drawable/js" />
             </LinearLayout>

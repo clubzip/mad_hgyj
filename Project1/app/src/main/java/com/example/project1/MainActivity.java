@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     private GalleryFrag galleryFrag;
     private ContactFrag contactFrag;
-    private FragWednesday fragWednesday;
+    private CalenderFrag calenderFrag;
 
 
     @Override
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         galleryFrag = new GalleryFrag();
         contactFrag = new ContactFrag();
-        fragWednesday = new FragWednesday();
+        calenderFrag = new CalenderFrag();
 
         tabLayout.setupWithViewPager(viewPager);
 
@@ -54,12 +54,12 @@ public class MainActivity extends AppCompatActivity {
 
         viewPagerAdapter.addFragment(galleryFrag, "Gallery");
         viewPagerAdapter.addFragment(contactFrag, "Contact");
-        viewPagerAdapter.addFragment(fragWednesday, "Third");
+        viewPagerAdapter.addFragment(calenderFrag, "Calendar");
         viewPager.setAdapter(viewPagerAdapter);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_baseline_collections_24);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_baseline_contact_phone_24);
-        tabLayout.getTabAt(2).setIcon(R.drawable.ic_baseline_bug_report_24);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_baseline_calendar_today_24);
 
         //contact.json파일이 존재하지 않으면
         File contact = new File(getFilesDir(), "contact.json");
