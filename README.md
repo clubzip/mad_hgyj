@@ -3,6 +3,7 @@
 ### This package contains three tabs, that is, Gallery tab, Contact tab, and Calendar tab.
 
 ## 1. Gallery tab
+It prints the 2x10 grid view of for drawable resources in the package. If user touch the image, it expands the image.
 
 ## 2. Contact tab
 The Contact tab prints the list of contact data which is stored in JSON file at its internal storage.
@@ -24,6 +25,8 @@ Today's date, Saturdays, Sundays highlighted.
 ### The tabs are implemented in fragment, and a view pager of MainActivity prints the view page for each fragment. 
 
 ## 1. Gallery tab
+This fragment just set the drawable image for each imageButton.
+To implement the zoom function, we use zoomImageFromThumb method which prints a expanded view on screen.
 
 ## 2. Contact tab
 This fragment contains custom listview. Thus, it contains 'ListViewAdapter' which extends BaseAdapter and 'ListViewItem'.
