@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent intent0 = new Intent(this, SplashActivity.class);
+        startActivity(intent0);
+
 //        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

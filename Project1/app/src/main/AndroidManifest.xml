@@ -22,6 +22,7 @@
         <activity android:name=".RemovePopUp" android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".CalenderMemo"/>
         <activity android:name=".EditCalenderMemo"/>
+        <activity android:name=".SplashActivity"/>
 
     </application>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
